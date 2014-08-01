@@ -1,26 +1,26 @@
-Microchip Technology Inc, vÄ
+Microchip Technology Inc, v
 
 Tool Name:
-  c:\program files\microchip\xc16\v1.21\bin\bin\..\bin/elf-ld.exe
+  /Applications/microchip/xc16/v1.21/bin/bin/../bin/elf-ld
 
 Command:
   -p24FJ32GA104 \
   -o \
   dist/default/production/protestSign.X.production.elf \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/.. \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24E \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/PIC24E/gld \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/PIC24F/gld \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24H \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/PIC24H/gld \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC30F \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/dsPIC30F/gld \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC33E \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/dsPIC33E/gld \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC33F \
-  -Lc:/program files/microchip/xc16/v1.21/bin/bin/../../support/dsPIC33F/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/.. \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/PIC24E \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/PIC24E/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/PIC24F/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/PIC24H \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/PIC24H/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC30F \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/dsPIC30F/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC33E \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/dsPIC33E/gld \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../lib/dsPIC33F \
+  -L/Applications/microchip/xc16/v1.21/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/_ext/981011402/main.o \
   build/default/production/_ext/1472/protestSign.o \
   --defsym=__MPLAB_BUILD=1 \
@@ -45,11 +45,11 @@ Command:
 
 Archive member included because of file (symbol)
 
-c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+/Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
                               (__resetPRI)
-c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
-                              c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
-c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libc-elf.a(memset.eo)
+/Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
+                              /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o) (__data_init_standard)
+/Applications/microchip/xc16/v1.21/bin/bin/../../lib/libc-elf.a(memset.eo)
                               build/default/production/_ext/1472/protestSign.o (_memset)
 
 
@@ -100,8 +100,8 @@ External Symbols in Program Memory (by address):
 
                   0x000200                  __resetPRI
                   0x000226                  __psv_init
-                  0x000236                  __data_init
                   0x000236                  __data_init_standard
+                  0x000236                  __data_init
                   0x000294                  __DefaultInterrupt
                   0x000298                  _memset
                   0x0002a6                  _font
@@ -158,7 +158,7 @@ Linker script and memory map
 LOAD build/default/production/_ext/981011402/main.o
 LOAD build/default/production/_ext/1472/protestSign.o
                     0x0001                  __MPLAB_BUILD = 0x1
-LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-elf.a
+LOAD /Applications/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F/libpPIC24Fxxx-elf.a
                     0x57f8                  __CONFIG4 = 0x57f8
                     0x57fa                  __CONFIG3 = 0x57fa
                     0x57fc                  __CONFIG2 = 0x57fc
@@ -179,13 +179,13 @@ LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F\libpPIC24Fxx
 
 .text             0x000200         0xa6
  *(.init)
- .init            0x000200         0x36 c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
-                  0x000200                  __resetPRI
+ .init            0x000200         0x36 /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
                   0x000200                  __reset
+                  0x000200                  __resetPRI
                   0x000226                  __psv_init
- .init            0x000236         0x5e c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
-                  0x000236                  __data_init_standard
+ .init            0x000236         0x5e /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
                   0x000236                  __data_init
+                  0x000236                  __data_init_standard
  *(.user_init)
  *(.handle)
  *(.isr*)
@@ -196,7 +196,7 @@ LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib/PIC24F\libpPIC24Fxx
  *(.libdsp)
  *(.lib*)
  .libc.memset.memset
-                  0x000298          0xe c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libc-elf.a(memset.eo)
+                  0x000298          0xe /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libc-elf.a(memset.eo)
                   0x000298                  _memset
 
 usercode
@@ -221,10 +221,10 @@ __CONFIG1         0x0057fe          0x2
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x101d
+.debug_info       0x000000       0x1031
  *(.debug_info)
- .debug_info      0x000000        0x400 build/default/production/_ext/981011402/main.o
- .debug_info      0x000400        0xc1d build/default/production/_ext/1472/protestSign.o
+ .debug_info      0x000000        0x40a build/default/production/_ext/981011402/main.o
+ .debug_info      0x00040a        0xc27 build/default/production/_ext/1472/protestSign.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x2d1
@@ -232,10 +232,10 @@ __CONFIG1         0x0057fe          0x2
  .debug_abbrev    0x000000        0x115 build/default/production/_ext/981011402/main.o
  .debug_abbrev    0x000115        0x1bc build/default/production/_ext/1472/protestSign.o
 
-.debug_line       0x000000        0x63c
+.debug_line       0x000000        0x636
  *(.debug_line)
- .debug_line      0x000000        0x1ac build/default/production/_ext/981011402/main.o
- .debug_line      0x0001ac        0x490 build/default/production/_ext/1472/protestSign.o
+ .debug_line      0x000000        0x1a9 build/default/production/_ext/981011402/main.o
+ .debug_line      0x0001a9        0x48d build/default/production/_ext/1472/protestSign.o
 
 .debug_frame      0x000000         0xd8
  *(.debug_frame)
@@ -1252,10 +1252,10 @@ __CONFIG1         0x0057fe          0x2
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libfx-elf.a
-LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a
-LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libm-elf.a
-LOAD c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libc-elf.a
+LOAD /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libfx-elf.a
+LOAD /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a
+LOAD /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libm-elf.a
+LOAD /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libc-elf.a
 END GROUP
 OUTPUT(dist/default/production/protestSign.X.production.elf elf32-pic30)
 LOAD default_isr
@@ -1275,11 +1275,11 @@ __c30_signature
  __c30_signature
                   0x00012a          0x6 build/default/production/_ext/1472/protestSign.o
  __c30_signature
-                  0x000130          0x6 c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+                  0x000130          0x6 /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
  __c30_signature
-                  0x000136          0x6 c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                  0x000136          0x6 /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
  __c30_signature
-                  0x00013c          0x6 c:/program files/microchip/xc16/v1.21/bin/bin/../../lib\libc-elf.a(memset.eo)
+                  0x00013c          0x6 /Applications/microchip/xc16/v1.21/bin/bin/../../lib/libc-elf.a(memset.eo)
 
 .nbss               0x0800         0xb2
  .nbss              0x0800         0xb2 build/default/production/_ext/1472/protestSign.o
